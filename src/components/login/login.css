@@ -1,0 +1,35 @@
+.loginForm {
+    max-width: 550px;
+    margin: 0 auto;
+}
+.loginForm input {
+    width: 100%;
+}
+.loginForm h1 {
+    text-align: center;
+}
+.logBtns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logBtns span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.loginBtn {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.a {
+    text-decoration: none;
+    color: #fff;
+}
+.errorMessage {
+    display: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}

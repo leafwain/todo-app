@@ -1,0 +1,67 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.post {
+    display: flex;
+    cursor: default;
+}
+
+.postText {
+    margin-left: 5px;
+    word-break: break-word;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btnn {
+    background: 0;
+    border: none;
+    margin-left: 15px;
+}
+
+.lineThrough {
+    text-decoration: line-through red 5px;
+}
+
+.changeBlock {
+    width: 100%;
+}
+
+.changeBlock-btn {
+    background-color: white;
+    margin-left: 2px;
+    max-width: 40px;
+    width: 100%;
+    border: 1px solid black;
+    height: 28px;
+    transition: all .1s linear;
+}
+
+.changeBlock-btn:hover {
+    opacity: .8;
+}
+
+.changeBlock-input {
+    outline: none;
+}
